@@ -1,0 +1,51 @@
+main{
+    padding: 20px auto !important;
+}
+
+.titulo{
+    font-size: 22pt;
+    margin-left: 60px;
+}
+
+form {
+    width: 500px;
+    margin: 0 60px;
+}
+
+form input, textarea {
+    font: 12pt Arial sans-serif;
+    background-color: rgba(255,255,255);
+    border: 1px solid #4D3019;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+form textarea {
+    resize: none;
+}
+
+form input:hover, textarea:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+legend{
+    color: #4D3019;
+    font-size: 12pt;
+    font-weight: 650;
+}
+
+form fieldset {
+    border: 2px solid #4D3019;
+    padding: 10px;
+}
+
+.btn-form-contato{
+    margin: 10px;
+    float: right;
+    background-color: #4D3019;
+    color: #F6F6ED;
+    font-size: 14pt;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
